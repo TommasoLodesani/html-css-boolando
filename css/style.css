@@ -9,6 +9,10 @@
     text-align: center;
 }
 
+.row{
+    margin-bottom: 70px;
+}
+
 .product {
     display: inline-block;
     position: relative;
