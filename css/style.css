@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-.row{
+/* .row{
     width: 100%;
     text-align: center;
-}
+    margin-bottom: 50px;
+} */
 
 .product img{
     height: 400px;
@@ -16,5 +17,28 @@
 
 .product {
     display: inline-block;
+    position: relative;
+}
+
+.product .caption{
+    position: absolute;
     
 }
+
+.caption .brand{
+    font-size: 10px;
+}
+
+.caption .name-cloth{
+    font-weight: 800;
+}
+
+.caption .price{
+    font-size: 12px;
+    color: red;
+}
+
+.caption .old-price{
+    text-decoration: line-through;
+}
+
