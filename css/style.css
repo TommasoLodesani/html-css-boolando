@@ -8,22 +8,18 @@
     width: 100%;
     text-align: center;
 }
-/* .row{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 50px;
-} */
-
-.product img{
-    height: 400px;
-    max-width: 100%;
-}
 
 .product {
     display: inline-block;
     position: relative;
     
 }
+
+.product img{
+    height: 400px;
+    max-width: 100%;
+}
+
 
 /* caption */
 .product .caption{
@@ -56,8 +52,7 @@
 .caption .old-price{
     text-decoration: line-through;
     display: inline-block;
-    
-    
+      
 }
 
 /* end caption */
@@ -78,8 +73,19 @@
 .product .discount-label{
     position: absolute;
     background-color: fuchsia;
-    font-size: 15px;
+    color: white;
+    font-size: 8px;
     padding: 3px;
     bottom: 20px;
     left: 0;
+}
+
+.product .sostenibilità{
+    position: absolute;
+    background-color: green;
+    color: white;
+    font-size: 8px;
+    padding: 3px;
+    bottom: 20px;
+    left: 30px;
 }
