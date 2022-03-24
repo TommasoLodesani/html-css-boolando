@@ -16,6 +16,7 @@
 .product {
     display: inline-block;
     position: relative;
+    margin: 0 5px;
     left: 0;
     top: 0%;
     
