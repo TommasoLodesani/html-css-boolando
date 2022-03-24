@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 100%;
+    text-align: center;
+}
 /* .row{
     width: 100%;
     text-align: center;
@@ -12,33 +16,70 @@
 
 .product img{
     height: 400px;
-    padding: 4px;
+    max-width: 100%;
 }
 
 .product {
     display: inline-block;
     position: relative;
+    
 }
 
+/* caption */
 .product .caption{
     position: absolute;
     
 }
 
+.caption{
+    text-align: left;
+}
+
 .caption .brand{
     font-size: 10px;
+   
+    
 }
 
 .caption .name-cloth{
     font-weight: 800;
+    
 }
 
 .caption .price{
     font-size: 12px;
     color: red;
+    display: inline-block;
+    
 }
 
 .caption .old-price{
     text-decoration: line-through;
+    display: inline-block;
+    
+    
 }
 
+/* end caption */
+
+/* heart */
+
+.product .heart{
+    position: absolute;
+    background-color: white;
+    font-size: 15px;
+    padding: 10px;
+    top: 25px;
+    right: 0;
+}
+
+/* discout */
+
+.product .discount-label{
+    position: absolute;
+    background-color: fuchsia;
+    font-size: 15px;
+    padding: 3px;
+    bottom: 20px;
+    left: 0;
+}
